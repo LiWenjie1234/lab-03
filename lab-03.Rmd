@@ -56,7 +56,8 @@ jan_feb_flights %>%
 
 ```{r}
 # which columns contain NA's
-dep_time, dep_delay, arr_time, arr_delay
+jan_feb_flights %>%
+  select(where(~ any(is.na(.x))))
 ```
 
 **Summary:**  
