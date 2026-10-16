@@ -39,19 +39,19 @@ Are there missing values?
 
 ```{r}
 # which columns are integer
-
+year, month, day, dep_time, sched_dep_time, arr_time, sched_arr_time
 
 # which columns are double
-
+dep_deplay
 
 # which columns are character
-
+carrier
 
 ```
 
 ```{r}
 # which columns contain NA's
-
+dep_time, dep_delay, arr_time, arr_delay
 ```
 
 **Summary:**  
